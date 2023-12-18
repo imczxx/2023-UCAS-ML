@@ -12,7 +12,7 @@
 ## 注意事项
 
 * 先注册Google账号喵(看教程喵，不然容易失败喵[怎么注册Google账号（使用国内手机号注册）_怎么注册谷歌账号用国内手机-CSDN博客](https://blog.csdn.net/qq_58035032/article/details/130402279)
-* 每日限额为12h
+* 每日限额为12h，请注意不用时关闭
 * 免费版云端资源不足时随时可能，请注意随时保存文件
 * 离开网页时也会被关闭，请先保存
 
@@ -76,7 +76,7 @@
   os.chdir('<dir>')
   ```
 
-  文件结构自己整理哈
+  文件结构自己安排哈
 
 * 上传数据集
 
@@ -88,11 +88,11 @@
   !unzip './DataSet.zip' -d './datasets/'
   ```
 
-  也可以保存我分享的数据集文件，已上传至Google Drivehttps://drive.google.com/drive/folders/1-sUuU6U8Alz1EQYUIQbaaeSJbqor1zmc?usp=drive_link
+  也可以保存我分享的数据集文件，已上传至Google Drive https://drive.google.com/drive/folders/1-sUuU6U8Alz1EQYUIQbaaeSJbqor1zmc?usp=drive_link
 
 ## Baseline
 
 对baseline进行了关于路径的修改，使其能运行在Colab中(同时修复了一些lightGBM库更新导致的参数问题)
 
-Google Drive链接https://drive.google.com/file/d/1cUSy1Yab9IdpMA3YZHGtozhC0BtQbrjn/view?usp=drive_link
+Google Drive链接 https://drive.google.com/file/d/1cUSy1Yab9IdpMA3YZHGtozhC0BtQbrjn/view?usp=drive_link
 
